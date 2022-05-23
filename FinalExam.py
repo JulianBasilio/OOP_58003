@@ -26,11 +26,13 @@ conOfent4 = StringVar()
 ent4 = Entry(window,bd=3,textvariable=conOfent4)
 3
 ent4.grid(row=3, column=1)
-btn1 = Button(window,text = "Find the largest no.",command=findLowest)
+btn1 = Button(window,text = "Find the lowest no.",command=findLowest)
 btn1.grid(row=4, column = 1)
-lbl5 = Label(window,text="The largest number:")
+lbl5 = Label(window,text="The lowest number:")
 lbl5.grid(row=5,column=0,sticky=W)
 conOfLowest = StringVar()
 ent5 = Entry(window,bd=3,state="readonly",textvariable=conOfLowest)
 ent5.grid(row=5,column=1)
 mainloop()
+
+
